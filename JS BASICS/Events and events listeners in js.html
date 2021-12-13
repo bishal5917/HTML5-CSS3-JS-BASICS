@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="cont">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem facilis nihil animi.
+    </p>
+    <button id="butt" onclick="showhidecontrol()">Show/hide</button>
+</body>
+
+<script>
+    
+    function showhidecontrol(){
+        if (cont.style.display!='none') //here id is required of that paragraph
+        {
+            cont.style.display='none'
+
+        }
+        else
+        cont.style.display='block'
+    }
+    let para=document.getElementById('cont');
+    para.addEventListener('mouseout',function run(){
+        alert("mouse went inside");
+    })
+  
+</script>
+</html>

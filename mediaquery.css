@@ -1,0 +1,31 @@
+.clss{
+    text-align: center;
+    color:blue;
+    /* border:2px solid green; */
+    /* margin: 4px; */
+    display: none;
+}
+@media(min-width:1020px)
+{
+#type-1{
+    display: block;
+}
+}
+@media(min-width:769px)
+{
+#type-2{
+    display: block;
+}
+}
+@media(min-width:428px)
+{
+#type-3{
+    display: block;
+}
+}
+@media(min-width:320px)
+{
+#type-4{
+    display: block;
+}
+}

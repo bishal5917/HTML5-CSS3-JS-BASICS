@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Json modules/working with json
+</body>
+<script>
+    let myobj={
+        Name:"Bishal",
+        Education:"BCE",
+        Address:"Silicon VAlley",
+        Food:"Mushroom"
+    }
+  
+    console.log(myobj)
+    myjsonstr=JSON.stringify(myobj)
+    console.log(myjsonstr)
+
+    x=myjsonstr.replace('Bishal','Pinnell')
+    console.log(x)
+
+    //parsing the json string back to json obj
+
+    newjsonobj=JSON.parse(myjsonstr)
+    console.log(newjsonobj)
+</script>
+</html>

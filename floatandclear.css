@@ -1,0 +1,53 @@
+#first {
+  border: 3px solid red;
+  margin: 5px;
+  float:left;
+  width:48%;
+  clear: both;
+}
+
+#second {
+  border: 2px solid rgb(224, 17, 17);
+  float:right;
+  width:48%;
+}
+
+#third {
+  border: 3px solid rgb(7, 145, 236);
+  margin-bottom: 5px;
+  clear: both;
+}
+
+#overall{
+    border: 3px solid green;
+    padding:10px 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#headcus{
+    margin:auto;
+    width: 130px;
+}
+
+#button{
+  margin-left: 550px;
+  margin-right: 550px;
+  text-decoration: none;
+  border:3px solid rgb(49, 5, 245);
+  padding:2px;
+  clear:both;
+}
+#button:hover
+{
+  color:rgb(82, 13, 241);
+  background-color: rgb(245, 8, 8);
+}
+#button:visited
+{
+  background-color: chartreuse;
+  border-color: rgb(35, 216, 18);
+}
+#button:active{
+  background-color: aqua;
+}

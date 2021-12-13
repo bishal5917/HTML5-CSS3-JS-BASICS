@@ -1,0 +1,41 @@
+.menuscust
+{
+   color: red;
+   border:3px solid blue;
+   border-radius: 20px;
+}
+
+.menuscust:hover{
+    color: rgb(29, 14, 240);
+}
+.menuscust li
+{
+    float:left;
+    list-style-type: none;
+    margin: 5px;
+    padding:5px 5px;
+}
+.menuscust ul{
+    overflow:auto;
+}
+.menuscust li:hover
+{
+    border:2px solid red;
+}
+.searchh
+{
+    float:right;
+    padding:2px 5px;
+    margin:2px 5px;
+    position:fixed;
+    right:30px;
+    top: 30px;
+    
+}
+.search:hover
+{
+    background-color: rgb(245, 10, 10);
+}
+body{
+    height:3400px;
+}

@@ -1,0 +1,63 @@
+.cnte
+{   
+    display: grid;
+    grid-gap:0.5rem;
+    grid-template-areas: 
+    'navbar navbar navbar navbar' 
+    'section section section aside'
+    'footer footer footer footer ';
+
+}
+#navbar
+{
+    grid-area: navbar;
+}
+#middle
+{
+    grid-area: section;
+}
+#aside
+{
+    grid-area: aside;
+}
+#footer
+{
+    grid-area:footer;
+}
+.item{
+    background-color: yellow;
+    border: 3px solid rgb(221, 9, 9);
+    padding: 12px 23px;
+}
+
+@media only screen and (max-width:400px)    /* 300 pugesi yesto hunxa vanni kuro hunxa ya */
+{ .cnte{
+    grid-template-areas: 
+    'navbar navbar navbar navbar' 
+    'section section section section'
+    'aside aside aside aside'
+    'footer footer footer footer ';
+}
+}
+@media only screen and (max-width:100px)       /* 100 pugesi yesto hunxa vanni kuro hunxa ya */
+{ .cnte{
+    grid-template-areas: 
+    'navbar navbar navbar navbar' 
+    'section section section section'
+    'footer footer footer footer ';
+}
+#aside
+{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
